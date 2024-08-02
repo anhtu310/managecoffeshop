@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PRN212\\ManageCoffee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\models\\managementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\models\\managementdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\view\\managecoffe.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\view\\managecoffe.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\view\\managecoffe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\view\\managecoffe.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\dto\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\view\\manageproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\view\\manageproduct.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\view\\dialog\\adddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\view\\dialog\\adddialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\view\\dialog\\adddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\view\\dialog\\adddialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|d:\\prn212\\managecoffee\\managecoffee\\view\\menumanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E29487A-5DFD-42DC-94BC-D5E643701532}|ManageCoffee\\ManageCoffee.csproj|solutionrelative:managecoffee\\view\\menumanage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 578,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ManageCoffe.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\ManageCoffe.xaml.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\View\\ManageCoffe.xaml.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\ManageCoffe.xaml.cs",
+              "RelativeToolTip": "ManageCoffee\\View\\ManageCoffe.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:49:54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ManagementDBContext.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\Models\\ManagementDBContext.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\Models\\ManagementDBContext.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\Models\\ManagementDBContext.cs",
+              "RelativeToolTip": "ManageCoffee\\Models\\ManagementDBContext.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAUwB8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T02:11:36.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\appsettings.json",
+              "RelativeDocumentMoniker": "ManageCoffee\\appsettings.json",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\appsettings.json",
+              "RelativeToolTip": "ManageCoffee\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-23T02:11:08.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\Repository\\ProductRepository.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "ManageCoffee\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAIAwwB4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T02:49:41.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\Services\\ProductService.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\Services\\ProductService.cs",
+              "RelativeToolTip": "ManageCoffee\\Services\\ProductService.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAIA1wB8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T02:50:39.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDTO.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\DTO\\OrderDTO.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\DTO\\OrderDTO.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\DTO\\OrderDTO.cs",
+              "RelativeToolTip": "ManageCoffee\\DTO\\OrderDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:43:04.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "ManageCoffee\\MainWindow.xaml",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\MainWindow.xaml",
+              "RelativeToolTip": "ManageCoffee\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-23T02:12:22.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenuManage.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\MenuManage.xaml.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\View\\MenuManage.xaml.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\MenuManage.xaml.cs",
+              "RelativeToolTip": "ManageCoffee\\View\\MenuManage.xaml.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wC8AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:09:24.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\MainWindow.xaml.cs",
+              "RelativeToolTip": "ManageCoffee\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAywBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T18:08:21.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddDialog.xaml.cs",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\Dialog\\AddDialog.xaml.cs",
+              "RelativeDocumentMoniker": "ManageCoffee\\View\\Dialog\\AddDialog.xaml.cs",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\Dialog\\AddDialog.xaml.cs",
+              "RelativeToolTip": "ManageCoffee\\View\\Dialog\\AddDialog.xaml.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCUAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T17:48:22.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddDialog.xaml",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\Dialog\\AddDialog.xaml",
+              "RelativeDocumentMoniker": "ManageCoffee\\View\\Dialog\\AddDialog.xaml",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\Dialog\\AddDialog.xaml",
+              "RelativeToolTip": "ManageCoffee\\View\\Dialog\\AddDialog.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T17:47:52.587Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 570,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ManageCoffe.xaml",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\ManageCoffe.xaml",
+              "RelativeDocumentMoniker": "ManageCoffee\\View\\ManageCoffe.xaml",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\ManageCoffe.xaml",
+              "RelativeToolTip": "ManageCoffee\\View\\ManageCoffe.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T17:42:46.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ManageProduct.xaml",
+              "DocumentMoniker": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\ManageProduct.xaml",
+              "RelativeDocumentMoniker": "ManageCoffee\\View\\ManageProduct.xaml",
+              "ToolTip": "D:\\PRN212\\ManageCoffee\\ManageCoffee\\View\\ManageProduct.xaml",
+              "RelativeToolTip": "ManageCoffee\\View\\ManageProduct.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-23T02:44:17.804Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

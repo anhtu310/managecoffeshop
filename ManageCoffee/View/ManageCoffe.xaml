@@ -1,0 +1,71 @@
+﻿<Window x:Class="ManageCoffee.View.ManageCoffe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ManageCoffee.View"
+        mc:Ignorable="d"
+        Title="ManageCoffe" Height="550" Width="1200">
+    <Window.Resources>
+        <!-- Style for DataGridColumnHeader -->
+        <Style x:Key="DataGridColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Background" Value="LightGray" />
+            <Setter Property="Foreground" Value="Blue" />
+            <Setter Property="FontWeight" Value="Bold" />
+            <Setter Property="HorizontalContentAlignment" Value="Center" />
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,10,14" Background="LightBlue">
+        <Button Content="DS đồ uống" HorizontalAlignment="Left" Margin="436,27,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_1" ></Button>
+        <Button Content="DS đồ ăn kèm" HorizontalAlignment="Left" Margin="637,26,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_2" />
+        <Button Content="Tạo đơn" HorizontalAlignment="Left" Margin="126,449,0,0" VerticalAlignment="Top" Width="144" Height="36" Click="Button_Click_4" />
+        <DataGrid x:Name="list_product" ItemsSource="{Binding}" AutoGenerateColumns="False" Margin="412,71,38,92" ColumnWidth="*" SelectionChanged="DataGrid_SelectionChanged" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Title}" />
+                <DataGridTextColumn Header="Price" Binding="{Binding Price}" />
+                <DataGridTextColumn Header="Description" Binding="{Binding Description}" />
+                <DataGridTemplateColumn Header="Status">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Status}">
+                                <TextBlock.Style>
+                                    <Style TargetType="TextBlock">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding Status}" Value="Còn Hàng">
+                                                <Setter Property="Foreground" Value="Green" />
+                                            </DataTrigger>
+                                            <DataTrigger Binding="{Binding Status}" Value="Hết Hàng">
+                                                <Setter Property="Foreground" Value="Red" />
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </TextBlock.Style>
+                            </TextBlock>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <Button Content="Quản lý" HorizontalAlignment="Left" Margin="47,10,0,0" VerticalAlignment="Top" Width="159" Click="Button_Click" Height="32" />
+
+        <DataGrid x:Name="select_grid" ItemsSource="{Binding}"  AutoGenerateColumns="False" ColumnWidth="*" Margin="47,71,824,156" ColumnHeaderStyle="{StaticResource DataGridColumnHeaderStyle}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="STT" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" />
+                <DataGridTextColumn Header="Số lượng" Binding="{Binding soluong}" />
+            </DataGrid.Columns>
+
+        </DataGrid>
+        <Button Content="Tất cả" HorizontalAlignment="Left" Margin="851,26,0,0" VerticalAlignment="Top" Width="145" Click="Button_Click_3" />
+        <TextBlock HorizontalAlignment="Left" 
+           Margin="89,388,0,0" 
+           TextWrapping="Wrap" 
+           Text="Tổng tiền" 
+           VerticalAlignment="Top" 
+           Foreground="Red" />
+        <TextBox x:Name="txt_total" HorizontalAlignment="Left" Margin="231,388,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="120"/>
+
+    </Grid>
+</Window>

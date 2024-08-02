@@ -1,0 +1,94 @@
+-- Create database: quan_ly_cafe
+create database quan_ly_cafe
+
+-- Active database
+use quan_ly_cafe
+
+-- Create tables
+create table Category (
+	id int primary key identity(1,1),
+	name nvarchar(50) not null
+)
+
+create table Product (
+	id int primary key identity(1,1),
+	title nvarchar(200),
+	thumbnail nvarchar(500),
+	description text,
+	price float,
+	id_cat int references Category (id),
+	status nvarchar(200)
+)
+
+create table Staff (
+	id int primary key identity(1,1),
+	fullname nvarchar(50),
+	address nvarchar(200),
+	email nvarchar(150),
+	password nvarchar(150)
+)
+
+create table Customer (
+	id int primary key identity(1,1),
+	fullname nvarchar(50),
+	address nvarchar(200),
+	email nvarchar(150),
+	phone_number nvarchar(20)
+)
+
+create table Orders (
+	id int primary key identity(1,1),
+	staff_id int references Staff(id),
+	customer_id int references Customer(id),
+	total_price float,  -- Sai -> thua -> Muc dich nghiep total_price -> xu ly query simple.
+	order_date datetime,
+	note nvarchar(500)
+)
+
+create table OrderDetail (
+	id int primary key identity(1,1),
+	product_id int references Product(id),
+	number int,
+	price float,
+	total_price float, -- Sai -> thua -> Muc dich nghiep total_price -> xu ly query simple.
+	order_id int references Orders(id)
+)
+
+
+-- Insert Data
+insert into Category (name)
+values
+('Đồ uống'),
+('Đồ ăn kèm')
+
+select * from Category
+
+insert into Product (title, thumbnail, description, price, id_cat,type)
+values
+('Cafe nong', 'Thumbnail_1', 'Noi dung 1', 32000, 1,'Còn Hàng'),
+('Cafe da', 'Thumbnail_2', 'Noi dung 2', 32000, 1,'Còn Hàng'),
+('Cafe sua', 'Thumbnail_3', 'Noi dung 3', 32000, 1,'Còn Hàng'),
+('Bò khô', 'Thumbnail_4', 'Noi dung 4', 42000, 2,'Còn Hàng'),
+('Hướng dương', 'Thumbnail_5', 'Noi dung 5', 42000, 2,'Còn Hàng')
+
+select * from Product
+
+insert into Staff(fullname, password, email, address)
+values
+('TRAN VAN A', 'staff', 'tranvana@gmail.com', 'Ha Noi')
+
+insert into Customer(fullname, email, address, phone_number)
+values
+('TRAN VAN B', 'tranvanb@gmail.com', 'Ha Noi', '1234567890')
+
+insert into Orders(staff_id, customer_id, total_price, order_date, note)
+values
+(1, 1, 96000, '2021-02-26', ''),
+(1, 1, 32000, '2021-02-25', ''),
+(1, 1, 74000, '2021-02-27', '')
+
+insert into OrderDetail(order_id, product_id, number, price, total_price)
+values
+(2, 1, 1, 32000, 32000),
+(3, 1, 1, 32000, 32000),
+(3, 5, 1, 42000, 42000)
